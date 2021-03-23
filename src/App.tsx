@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Header from './components/header';
 import DateHeader from './components/dateHeader';
+import Event from './components/event';
 
 function App() {
   const date1: Date = new Date(2021, 0, 8);
@@ -9,6 +10,7 @@ function App() {
     <div className="App">
       <Header month='January' />
       <DateHeader date={ date1 } />
+      <Event event='Funeral' />
       <Header month='February' />
       <Header month='March' />
       <Header month='April' />
