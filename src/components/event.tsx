@@ -4,7 +4,7 @@ interface EventProps { event: string }
 
 const Event = ({event}: EventProps) => {
     return (
-        <h1>{ event }</h1>
+            <h3>{ event }</h3>
     )
 }
 
