@@ -2,10 +2,10 @@ import React from 'react';
 
 interface EventProps { event: string }
 
-const Event = ({event}: EventProps) => {
+const EventTitle = ({event}: EventProps) => {
     return (
             <h3>{ event }</h3>
     )
 }
 
-export default Event;
+export default EventTitle;
